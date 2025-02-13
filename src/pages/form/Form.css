@@ -1,0 +1,141 @@
+
+  .form-container {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+  }
+  
+  .form-title {
+    font-size: 2rem;
+    color: #313296;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .form-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .error-message,
+  .success-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .error-message {
+    background-color: #ffebee;
+    color: #d32f2f;
+  }
+  
+  .success-message {
+    background-color: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #313296;
+    box-shadow: 0 0 4px rgba(49, 50, 150, 0.3);
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .radio-group input[type="radio"] {
+    accent-color: #313296;
+  }
+  
+  .submit-button {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    background-color: #313296;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #282583;
+    box-shadow: 0 4px 12px rgba(49, 50, 150, 0.3);
+  }
+  
+  .spinner {
+    font-size: 1.2rem;
+    color: #313296;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .unsupported-field {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 15px;
+      padding-top: 140px;
+    }
+  
+    .form-title {
+      font-size: 1.5rem;
+    }
+  
+    .feedback-form {
+      gap: 15px;
+    }
+  }
+  

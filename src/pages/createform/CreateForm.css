@@ -1,0 +1,110 @@
+.create-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 140px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .form-fields {
+    margin-top: 20px;
+  }
+  
+  .field-group {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .field-group input[type="text"] {
+    margin-bottom: 10px;
+  }
+  
+  .field-group textarea {
+    margin-top: 10px;
+  }
+  
+  .add-field-button,
+  .remove-field-button,
+  .submit-button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-field-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .remove-field-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .add-field-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .remove-field-button:hover {
+    background-color: #c82333;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .success-message {
+    color: #28a745;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  

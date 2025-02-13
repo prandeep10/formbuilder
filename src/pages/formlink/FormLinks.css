@@ -1,0 +1,80 @@
+.form-links-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    padding-top: 120px;
+  }
+  
+  .form-links-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-links-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .form-link-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-link-details {
+    max-width: 70%;
+  }
+  
+  .form-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .form-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0 0;
+  }
+  
+  .form-link-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .copy-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+  }
+  
+  .copy-button:hover {
+    background: #0056b3;
+  }
+  

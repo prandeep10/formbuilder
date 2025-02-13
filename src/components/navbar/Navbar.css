@@ -1,0 +1,127 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+  }
+
+  .menu a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  }
+  
+  .book-meeting {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #000000;
+  }
+
+  .book-meeting:hover {
+    background: black;
+    color: white;
+  }
+  .book-meeting1{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  .mobile-menu-icon.open {
+    transform: rotate(90deg);
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 6px 0;
+  }
+  
+  /* Media Query for Mobile View */
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      padding: 20px;
+      background: rgb(243, 242, 242);
+    }
+  
+    .menu.mobile-menu-open {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .mobile-menu-icon {
+      display: flex;
+    }
+
+    .menu a{
+      padding: 5px;
+    }
+
+    .book-meeting{
+        display: none;
+    }
+
+    .book-meeting1{
+        display: flex;
+        width: 280px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+
+  .active-link {
+    color: #4caf50; /* or any other color to indicate the active link */
+    font-weight: bold; /* optional: make the active link bold */
+  }
+  
+  
